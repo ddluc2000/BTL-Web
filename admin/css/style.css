@@ -1,0 +1,233 @@
+/* Style for all */
+
+.text-center{
+    text-align: center;
+}
+.size-button{
+    padding: 12px;
+    margin: 10px;
+}
+.container-fluid{
+    height: 100vh;
+    margin-top: 60px;
+}
+h2{
+    padding: 50px 0 0 40%;
+    font-size: 2.5rem;
+}
+h3{
+    padding: 10px 0 0 40%;
+}
+.row-content{
+    height: 70%;
+    background-color: whitesmoke;
+    margin: 0 20px;
+}
+.row-content-ct h3{
+    padding: 20px 0 0 47%;
+}
+.row-content-ct{
+    height: 30%;
+    background-color: whitesmoke;
+    margin: 0 20px;
+}
+.row-nav.row-nav-ct{
+    background-color: rgb(214, 168, 107);
+}
+.row-nav{
+    height: 30%;
+    background-color: rgb(205, 231, 110);
+    margin: 0 20px;
+}
+.content{
+    padding: 3px;
+}
+.bt-div{
+    padding-left: 10%;
+}
+.bt{
+    margin: 3% auto;
+    width: 45%;
+    text-decoration: none;
+    background-color: chocolate;
+}
+
+/* Style CSS for header */
+
+.head{
+    animation: duoilen 1s ease-out;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+.head_top{
+    height: 55px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #2e5288;
+}
+.head_bottom{
+    animation: duoilen  1s ease-out;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 95px;
+    background-color: white;
+}
+.head_bottom_left{
+    height: 95px;
+    float: left;
+    width: 30%;
+}
+.head_bottom_left img{
+    width: 266px;
+    height: 43px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.head_bottom_right{
+    height: 95px;
+    float: right;
+    width: 70%;
+}
+.head_bottom_right ul{
+    margin-top: 40px;
+    list-style-type: none;
+}
+.head_bottom_right ul li{
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 25px; 
+}
+.head_bottom_right ul li a{
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.375rem;
+    color: #000000b5;
+    position: relative;
+    margin-left: 20px;
+    float: left ;
+}
+header{
+    height: 20vh;
+    width: 100%;
+}
+
+/* Style CSS for footer */
+
+footer .main-footer{    
+    padding: 20px 0;
+    animation: trenxuong 1s ease-out;
+    background: #252525;
+}
+footer ul{  
+    padding-left: 0;    list-style: none;
+}
+.footer- .logo {    
+    display: inline-block;
+}
+.widget{    
+    padding: 0;  
+    margin-bottom: 40px;
+}
+.widget.widget-last{    
+    margin-bottom: 0px;
+}
+.widget.no-box{ 
+    padding: 0; 
+    background-color: transparent;  
+    margin-bottom: 40px;
+    box-shadow: none; -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    -ms-box-shadow: none; 
+    -o-box-shadow: none;
+}.widget li a{   
+    color: white;
+    text-decoration: none;}
+.widget li a:hover{
+    color: #cd3c3f;
+}
+.widget.subscribe p{
+    margin-bottom: 18px;
+}
+.widget-title {
+    margin-bottom: 20px;
+}
+.widget-title span {
+    background: #839FAD none repeat scroll 0 0;
+    display: block; height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 30%;}
+.widget-title span::after {
+    background: inherit;
+    content: "";height: inherit;    
+    position: absolute;
+    top: -4px;
+    width: 80%;
+}
+.thumbnail-widget{
+    width: 120%;
+}
+.typo-light h5, .typo-light div,.typo-light small{  
+    color: whitesmoke;
+}
+.foot{
+    width: 100%;
+    background-color: grey;
+}
+.foot_top{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #cd3c3f;
+}
+.foot .foot_left{
+    margin-left: 40px;
+}
+.foot .foot_left ul p{
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 15px;
+}
+.foot .foot_right{
+    position: absolute;
+    z-index: 1000;
+    margin-top: -71px;
+    background-color: #2e5288;
+    right: 0;
+    height: 70px;
+    width: 400px;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+/* style for login */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.lgin{
+    padding-top: 5rem;
+}
